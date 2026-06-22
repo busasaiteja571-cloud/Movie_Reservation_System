@@ -1,0 +1,87 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build output
+target/
+**/target/
+
+# Maven wrapper files (keep wrapper scripts and config, ignore generated jar if present)
+.mvn/wrapper/maven-wrapper.jar
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+
+# IDEs / editors
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+classpath
+.project
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+logs/
+
+# Environment variables and local config
+.env
+.env.*
+*.env
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+bower_components/
+
+# Misc
+*.tmp
+*.temp
+*.swp
+*~
+
+# Package distribution
+dist/
+build/
+
+# Docker
+docker-compose.override.yml
+
+# JetBrains
+out/
+
+# Generated code
+generated/
+
+# OS-specific files
+Icon?
+
+# Security
+credentials.json
+ssh/
+
+# Ignore IntelliJ project files if present
+*.iml
+
+# Ignore log output directories and temporary files
+**/.DS_Store
+**/Thumbs.db
+**/*~
