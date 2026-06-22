@@ -27,6 +27,7 @@ hs_err_pid*
 *.ipr
 *.iws
 .vscode/
+.classpath
 classpath
 .project
 .settings/
